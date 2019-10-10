@@ -1,0 +1,42 @@
+.main_headImg{
+    border: none;
+}
+.myMoney{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background: #fff;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+.myMoney li{
+    text-align: center;
+}
+.myMoney img{
+    width: 25px;
+    height: 25px;
+}
+.address{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.address div{
+    width: 80%;
+}
+.address span{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.address span img{
+    width: 20px;
+    height: 20px;
+}

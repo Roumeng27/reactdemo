@@ -1,0 +1,17 @@
+.noding_button{
+    width: 100%;
+    text-align: center;
+}
+.noding_button p{
+    margin: 8px 0;
+}
+.noding_button button{
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #56d176;
+    border-radius: 3px;
+    color: #fff;
+    outline: none;
+    background: #56d176;
+}

@@ -1,0 +1,80 @@
+.home_header{
+    width: 100%;
+    height: 40px;
+    line-height: 50px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(160deg, #0af 20%,#0085ff 80%);
+}
+.home_header p{
+    width: 200px;
+    text-indent: 35px;
+    font-weight: bold;
+    background: url('../../assets/homeaddress.png') no-repeat 10px center;
+    background-size: 20px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.home_serch{
+    border: none;
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    background-image: linear-gradient(160deg, #0af 20%,#0085ff 80%);
+}
+.home_serch input{
+    width: 92%;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    outline: none;
+    background: url('../../assets/search.png') no-repeat 30px center;
+    background-size: 20px;
+    background-color: #fff;
+    text-indent: 60px;
+    font-size: 16px;
+}
+.home_banner{
+    height: 160px;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+.home_banner li{
+    height: 75px;
+    width: 20%;
+    text-align: center;
+}
+.home_banner li img{
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+.home_storeList{
+    width: 100%;
+}
+.home_storeList li{
+    height: 100px;
+    width: 100%;
+    background: #fff;
+}
+.home_storeList li img{
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.home_storeList li span{
+    width: 250px;
+    display: inline-block;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
